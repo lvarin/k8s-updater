@@ -25,7 +25,8 @@ curl -X GET  https://$URL/deploy/example_name
 * **POST**, `/deploy/<name>`. Changes the tag of an image in the deployment. For example:
 
 ```
-curl -X POST https://$URL/deploy/example_name -d 'image={"image":"path/name:tag2"}' -d 'uuid=XXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX'
+curl -X POST https://$URL/deploy/example_name -d 'image={"image":"path/name:tag2"}' \
+-d 'uuid=XXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX'
 {"API status": "path/name:tag2"}
 ```
 
