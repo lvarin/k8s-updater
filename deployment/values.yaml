@@ -4,3 +4,4 @@ imagename: akash7778/k8-updater
 containerport: 5000
 nodeport: 30003
 secret: Akash@123
+clusterType: "openshift"
